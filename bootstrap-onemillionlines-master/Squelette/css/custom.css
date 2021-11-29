@@ -1,0 +1,65 @@
+/* Vos customisations des classes de Bootstrap */
+ul{
+    list-style-type: none;
+}
+
+.para1{
+    color: white;
+    font-size: 400%;
+}
+.para2{
+    color: white;
+}
+.money {
+    background-color: grey;
+}
+h2{
+    color: red;
+}
+.get{
+    padding: 10px;
+}
+
+#home {
+    background-image: url('../images/hero-image.jpg');
+    background-size: cover;
+}
+.line{
+    border-bottom: red;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    width: 150px;
+}
+.footer{
+    display: flex;
+    background-color: red;
+    height: 170px;
+    position: static;
+}
+#back-to-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+#who-container{
+    
+}
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
